@@ -14,10 +14,16 @@
  </head>
 <body>
 <div id="app">
-    <header-component></header-component>
-    <home-card-component></home-card-component>
+    <header_component></header_component>
+    <recommend_cards_component></recommend_cards_component>
+    <cards_component></cards_component>
 </div>
- <!-- Scripts -->
+
+<!-- Scripts -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="{{ asset('assets/js/vendor/bootstrap.min.js') }}"></script>
+<script src="{{ asset('assets/js/vendor/popper.min.js') }}"></script>
+<script src="{{ asset('assets/js/vendor/holder.min.js') }}"></script>
 <script src="{{ mix('/js/app.js') }}" defer></script>
 </body>
 </html>

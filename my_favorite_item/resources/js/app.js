@@ -1,5 +1,6 @@
-import HomeCardComponent from "./components/HomeCardComponent";
 import HeaderComponent from "./components/HeaderComponent";
+import RecommendCardsComponent from "./components/RecommendCardsComponent";
+import CardsComponent from "./components/CardsComponent";
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -19,8 +20,9 @@ window.Vue = require('vue').default;
  * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
  */
 
-Vue.component('header-component', HeaderComponent);
-Vue.component('home-card-component', HomeCardComponent);
+Vue.component('header_component', HeaderComponent);
+Vue.component('recommend_cards_component', RecommendCardsComponent);
+Vue.component('cards_component', CardsComponent);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

@@ -2054,6 +2054,182 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/CardsComponent.vue?vue&type=script&lang=js&":
+/*!*********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/CardsComponent.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/HeaderComponent.vue?vue&type=script&lang=js&":
 /*!**********************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/HeaderComponent.vue?vue&type=script&lang=js& ***!
@@ -2099,10 +2275,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/HomeCardComponent.vue?vue&type=script&lang=js&":
-/*!************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/HomeCardComponent.vue?vue&type=script&lang=js& ***!
-  \************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/RecommendCardsComponent.vue?vue&type=script&lang=js&":
+/*!******************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/RecommendCardsComponent.vue?vue&type=script&lang=js& ***!
+  \******************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -2128,35 +2304,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  mounted: function mounted() {
-    console.log('Component mounted.');
-  }
+  mounted: function mounted() {}
 });
 
 /***/ }),
@@ -2169,8 +2318,10 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _components_HomeCardComponent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/HomeCardComponent */ "./resources/js/components/HomeCardComponent.vue");
-/* harmony import */ var _components_HeaderComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/HeaderComponent */ "./resources/js/components/HeaderComponent.vue");
+/* harmony import */ var _components_HeaderComponent__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./components/HeaderComponent */ "./resources/js/components/HeaderComponent.vue");
+/* harmony import */ var _components_RecommendCardsComponent__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./components/RecommendCardsComponent */ "./resources/js/components/RecommendCardsComponent.vue");
+/* harmony import */ var _components_CardsComponent__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./components/CardsComponent */ "./resources/js/components/CardsComponent.vue");
+
 
 
 /**
@@ -2190,8 +2341,9 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm.js"
  * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
  */
 
-Vue.component('header-component', _components_HeaderComponent__WEBPACK_IMPORTED_MODULE_1__["default"]);
-Vue.component('home-card-component', _components_HomeCardComponent__WEBPACK_IMPORTED_MODULE_0__["default"]);
+Vue.component('header_component', _components_HeaderComponent__WEBPACK_IMPORTED_MODULE_0__["default"]);
+Vue.component('recommend_cards_component', _components_RecommendCardsComponent__WEBPACK_IMPORTED_MODULE_1__["default"]);
+Vue.component('cards_component', _components_CardsComponent__WEBPACK_IMPORTED_MODULE_2__["default"]);
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -37556,6 +37708,45 @@ process.umask = function() { return 0; };
 
 /***/ }),
 
+/***/ "./resources/js/components/CardsComponent.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/components/CardsComponent.vue ***!
+  \****************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _CardsComponent_vue_vue_type_template_id_54096305___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./CardsComponent.vue?vue&type=template&id=54096305& */ "./resources/js/components/CardsComponent.vue?vue&type=template&id=54096305&");
+/* harmony import */ var _CardsComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./CardsComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/CardsComponent.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+;
+var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _CardsComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _CardsComponent_vue_vue_type_template_id_54096305___WEBPACK_IMPORTED_MODULE_0__.render,
+  _CardsComponent_vue_vue_type_template_id_54096305___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/CardsComponent.vue"
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
 /***/ "./resources/js/components/HeaderComponent.vue":
 /*!*****************************************************!*\
   !*** ./resources/js/components/HeaderComponent.vue ***!
@@ -37595,10 +37786,10 @@ component.options.__file = "resources/js/components/HeaderComponent.vue"
 
 /***/ }),
 
-/***/ "./resources/js/components/HomeCardComponent.vue":
-/*!*******************************************************!*\
-  !*** ./resources/js/components/HomeCardComponent.vue ***!
-  \*******************************************************/
+/***/ "./resources/js/components/RecommendCardsComponent.vue":
+/*!*************************************************************!*\
+  !*** ./resources/js/components/RecommendCardsComponent.vue ***!
+  \*************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -37606,8 +37797,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _HomeCardComponent_vue_vue_type_template_id_0f53d15a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./HomeCardComponent.vue?vue&type=template&id=0f53d15a& */ "./resources/js/components/HomeCardComponent.vue?vue&type=template&id=0f53d15a&");
-/* harmony import */ var _HomeCardComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./HomeCardComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/HomeCardComponent.vue?vue&type=script&lang=js&");
+/* harmony import */ var _RecommendCardsComponent_vue_vue_type_template_id_589305ca___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./RecommendCardsComponent.vue?vue&type=template&id=589305ca& */ "./resources/js/components/RecommendCardsComponent.vue?vue&type=template&id=589305ca&");
+/* harmony import */ var _RecommendCardsComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./RecommendCardsComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/RecommendCardsComponent.vue?vue&type=script&lang=js&");
 /* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! !../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
 
 
@@ -37617,9 +37808,9 @@ __webpack_require__.r(__webpack_exports__);
 /* normalize component */
 ;
 var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _HomeCardComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _HomeCardComponent_vue_vue_type_template_id_0f53d15a___WEBPACK_IMPORTED_MODULE_0__.render,
-  _HomeCardComponent_vue_vue_type_template_id_0f53d15a___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
+  _RecommendCardsComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _RecommendCardsComponent_vue_vue_type_template_id_589305ca___WEBPACK_IMPORTED_MODULE_0__.render,
+  _RecommendCardsComponent_vue_vue_type_template_id_589305ca___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns,
   false,
   null,
   null,
@@ -37629,8 +37820,24 @@ var component = (0,_node_modules_vue_loader_lib_runtime_componentNormalizer_js__
 
 /* hot reload */
 if (false) { var api; }
-component.options.__file = "resources/js/components/HomeCardComponent.vue"
+component.options.__file = "resources/js/components/RecommendCardsComponent.vue"
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/CardsComponent.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************!*\
+  !*** ./resources/js/components/CardsComponent.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CardsComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CardsComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/CardsComponent.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_CardsComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
 
 /***/ }),
 
@@ -37650,10 +37857,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/HomeCardComponent.vue?vue&type=script&lang=js&":
-/*!********************************************************************************!*\
-  !*** ./resources/js/components/HomeCardComponent.vue?vue&type=script&lang=js& ***!
-  \********************************************************************************/
+/***/ "./resources/js/components/RecommendCardsComponent.vue?vue&type=script&lang=js&":
+/*!**************************************************************************************!*\
+  !*** ./resources/js/components/RecommendCardsComponent.vue?vue&type=script&lang=js& ***!
+  \**************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -37661,8 +37868,25 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_HomeCardComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./HomeCardComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/HomeCardComponent.vue?vue&type=script&lang=js&");
- /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_HomeCardComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_RecommendCardsComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./RecommendCardsComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5[0].rules[0].use[0]!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/RecommendCardsComponent.vue?vue&type=script&lang=js&");
+ /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (_node_modules_babel_loader_lib_index_js_clonedRuleSet_5_0_rules_0_use_0_node_modules_vue_loader_lib_index_js_vue_loader_options_RecommendCardsComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/CardsComponent.vue?vue&type=template&id=54096305&":
+/*!***********************************************************************************!*\
+  !*** ./resources/js/components/CardsComponent.vue?vue&type=template&id=54096305& ***!
+  \***********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CardsComponent_vue_vue_type_template_id_54096305___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CardsComponent_vue_vue_type_template_id_54096305___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */ });
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_CardsComponent_vue_vue_type_template_id_54096305___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./CardsComponent.vue?vue&type=template&id=54096305& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/CardsComponent.vue?vue&type=template&id=54096305&");
+
 
 /***/ }),
 
@@ -37683,19 +37907,516 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ "./resources/js/components/HomeCardComponent.vue?vue&type=template&id=0f53d15a&":
-/*!**************************************************************************************!*\
-  !*** ./resources/js/components/HomeCardComponent.vue?vue&type=template&id=0f53d15a& ***!
-  \**************************************************************************************/
+/***/ "./resources/js/components/RecommendCardsComponent.vue?vue&type=template&id=589305ca&":
+/*!********************************************************************************************!*\
+  !*** ./resources/js/components/RecommendCardsComponent.vue?vue&type=template&id=589305ca& ***!
+  \********************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HomeCardComponent_vue_vue_type_template_id_0f53d15a___WEBPACK_IMPORTED_MODULE_0__.render),
-/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HomeCardComponent_vue_vue_type_template_id_0f53d15a___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_RecommendCardsComponent_vue_vue_type_template_id_589305ca___WEBPACK_IMPORTED_MODULE_0__.render),
+/* harmony export */   "staticRenderFns": () => (/* reexport safe */ _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_RecommendCardsComponent_vue_vue_type_template_id_589305ca___WEBPACK_IMPORTED_MODULE_0__.staticRenderFns)
 /* harmony export */ });
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_HomeCardComponent_vue_vue_type_template_id_0f53d15a___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./HomeCardComponent.vue?vue&type=template&id=0f53d15a& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/HomeCardComponent.vue?vue&type=template&id=0f53d15a&");
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_RecommendCardsComponent_vue_vue_type_template_id_589305ca___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib/index.js??vue-loader-options!./RecommendCardsComponent.vue?vue&type=template&id=589305ca& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/RecommendCardsComponent.vue?vue&type=template&id=589305ca&");
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/CardsComponent.vue?vue&type=template&id=54096305&":
+/*!**************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/CardsComponent.vue?vue&type=template&id=54096305& ***!
+  \**************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render),
+/* harmony export */   "staticRenderFns": () => (/* binding */ staticRenderFns)
+/* harmony export */ });
+var render = function () {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function () {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "album py-5 bg-light" }, [
+      _c("div", { staticClass: "container" }, [
+        _c("div", { staticClass: "row" }, [
+          _c(
+            "div",
+            { staticClass: "col-md-12", attrs: { id: "collection-heading" } },
+            [_c("span", [_vm._v("BEST")])]
+          ),
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "row" }, [
+          _c("div", { staticClass: "col-md-4" }, [
+            _c("div", { staticClass: "card mb-4 box-shadow" }, [
+              _c("img", {
+                staticClass: "card-img-top",
+                attrs: {
+                  src: "https://sc3.locondo.jp/contents/commodity_image/CO/CO6840EU00011_1_m.jpg",
+                  alt: "Card image cap",
+                },
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "card-body" }, [
+                _c("p", { staticClass: "card-text" }, [
+                  _vm._v(
+                    "This is a wider card with supporting text below as a natural lead-in to additional content.\n                            This content is a little bit longer."
+                  ),
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "d-flex justify-content-between align-items-center",
+                  },
+                  [
+                    _c("div", { staticClass: "btn-group" }, [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-sm btn-outline-secondary",
+                          attrs: { type: "button" },
+                        },
+                        [_vm._v("View")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-sm btn-outline-secondary",
+                          attrs: { type: "button" },
+                        },
+                        [_vm._v("Edit")]
+                      ),
+                    ]),
+                    _vm._v(" "),
+                    _c("small", { staticClass: "text-muted" }, [
+                      _vm._v("12 mins"),
+                    ]),
+                  ]
+                ),
+              ]),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-4" }, [
+            _c("div", { staticClass: "card mb-4 box-shadow" }, [
+              _c("img", {
+                staticClass: "card-img-top",
+                attrs: { src: "img/thumbnail.png", alt: "Card image cap" },
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "card-body" }, [
+                _c("p", { staticClass: "card-text" }, [
+                  _vm._v(
+                    "This is a wider card with supporting text below as a natural lead-in to additional content.\n                            This content is a little bit longer."
+                  ),
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "d-flex justify-content-between align-items-center",
+                  },
+                  [
+                    _c("div", { staticClass: "btn-group" }, [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-sm btn-outline-secondary",
+                          attrs: { type: "button" },
+                        },
+                        [_vm._v("View")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-sm btn-outline-secondary",
+                          attrs: { type: "button" },
+                        },
+                        [_vm._v("Edit")]
+                      ),
+                    ]),
+                    _vm._v(" "),
+                    _c("small", { staticClass: "text-muted" }, [
+                      _vm._v("12 mins"),
+                    ]),
+                  ]
+                ),
+              ]),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-4" }, [
+            _c("div", { staticClass: "card mb-4 box-shadow" }, [
+              _c("img", {
+                staticClass: "card-img-top",
+                attrs: { src: "img/thumbnail.png", alt: "Card image cap" },
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "card-body" }, [
+                _c("p", { staticClass: "card-text" }, [
+                  _vm._v(
+                    "This is a wider card with supporting text below as a natural lead-in to additional content.\n                            This content is a little bit longer."
+                  ),
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "d-flex justify-content-between align-items-center",
+                  },
+                  [
+                    _c("div", { staticClass: "btn-group" }, [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-sm btn-outline-secondary",
+                          attrs: { type: "button" },
+                        },
+                        [_vm._v("View")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-sm btn-outline-secondary",
+                          attrs: { type: "button" },
+                        },
+                        [_vm._v("Edit")]
+                      ),
+                    ]),
+                    _vm._v(" "),
+                    _c("small", { staticClass: "text-muted" }, [
+                      _vm._v("12 mins"),
+                    ]),
+                  ]
+                ),
+              ]),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-4" }, [
+            _c("div", { staticClass: "card mb-4 box-shadow" }, [
+              _c("img", {
+                staticClass: "card-img-top",
+                attrs: { src: "img/thumbnail.png", alt: "Card image cap" },
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "card-body" }, [
+                _c("p", { staticClass: "card-text" }, [
+                  _vm._v(
+                    "This is a wider card with supporting text below as a natural lead-in to additional content.\n                            This content is a little bit longer."
+                  ),
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "d-flex justify-content-between align-items-center",
+                  },
+                  [
+                    _c("div", { staticClass: "btn-group" }, [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-sm btn-outline-secondary",
+                          attrs: { type: "button" },
+                        },
+                        [_vm._v("View")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-sm btn-outline-secondary",
+                          attrs: { type: "button" },
+                        },
+                        [_vm._v("Edit")]
+                      ),
+                    ]),
+                    _vm._v(" "),
+                    _c("small", { staticClass: "text-muted" }, [
+                      _vm._v("12 mins"),
+                    ]),
+                  ]
+                ),
+              ]),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-4" }, [
+            _c("div", { staticClass: "card mb-4 box-shadow" }, [
+              _c("img", {
+                staticClass: "card-img-top",
+                attrs: { src: "img/thumbnail.png", alt: "Card image cap" },
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "card-body" }, [
+                _c("p", { staticClass: "card-text" }, [
+                  _vm._v(
+                    "This is a wider card with supporting text below as a natural lead-in to additional content.\n                            This content is a little bit longer."
+                  ),
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "d-flex justify-content-between align-items-center",
+                  },
+                  [
+                    _c("div", { staticClass: "btn-group" }, [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-sm btn-outline-secondary",
+                          attrs: { type: "button" },
+                        },
+                        [_vm._v("View")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-sm btn-outline-secondary",
+                          attrs: { type: "button" },
+                        },
+                        [_vm._v("Edit")]
+                      ),
+                    ]),
+                    _vm._v(" "),
+                    _c("small", { staticClass: "text-muted" }, [
+                      _vm._v("12 mins"),
+                    ]),
+                  ]
+                ),
+              ]),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-4" }, [
+            _c("div", { staticClass: "card mb-4 box-shadow" }, [
+              _c("img", {
+                staticClass: "card-img-top",
+                attrs: { src: "img/thumbnail.png", alt: "Card image cap" },
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "card-body" }, [
+                _c("p", { staticClass: "card-text" }, [
+                  _vm._v(
+                    "This is a wider card with supporting text below as a natural lead-in to additional content.\n                            This content is a little bit longer."
+                  ),
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "d-flex justify-content-between align-items-center",
+                  },
+                  [
+                    _c("div", { staticClass: "btn-group" }, [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-sm btn-outline-secondary",
+                          attrs: { type: "button" },
+                        },
+                        [_vm._v("View")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-sm btn-outline-secondary",
+                          attrs: { type: "button" },
+                        },
+                        [_vm._v("Edit")]
+                      ),
+                    ]),
+                    _vm._v(" "),
+                    _c("small", { staticClass: "text-muted" }, [
+                      _vm._v("12 mins"),
+                    ]),
+                  ]
+                ),
+              ]),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-4" }, [
+            _c("div", { staticClass: "card mb-4 box-shadow" }, [
+              _c("img", {
+                staticClass: "card-img-top",
+                attrs: { src: "img/thumbnail.png", alt: "Card image cap" },
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "card-body" }, [
+                _c("p", { staticClass: "card-text" }, [
+                  _vm._v(
+                    "This is a wider card with supporting text below as a natural lead-in to additional content.\n                            This content is a little bit longer."
+                  ),
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "d-flex justify-content-between align-items-center",
+                  },
+                  [
+                    _c("div", { staticClass: "btn-group" }, [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-sm btn-outline-secondary",
+                          attrs: { type: "button" },
+                        },
+                        [_vm._v("View")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-sm btn-outline-secondary",
+                          attrs: { type: "button" },
+                        },
+                        [_vm._v("Edit")]
+                      ),
+                    ]),
+                    _vm._v(" "),
+                    _c("small", { staticClass: "text-muted" }, [
+                      _vm._v("12 mins"),
+                    ]),
+                  ]
+                ),
+              ]),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-4" }, [
+            _c("div", { staticClass: "card mb-4 box-shadow" }, [
+              _c("img", {
+                staticClass: "card-img-top",
+                attrs: { src: "img/thumbnail.png", alt: "Card image cap" },
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "card-body" }, [
+                _c("p", { staticClass: "card-text" }, [
+                  _vm._v(
+                    "This is a wider card with supporting text below as a natural lead-in to additional content.\n                            This content is a little bit longer."
+                  ),
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "d-flex justify-content-between align-items-center",
+                  },
+                  [
+                    _c("div", { staticClass: "btn-group" }, [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-sm btn-outline-secondary",
+                          attrs: { type: "button" },
+                        },
+                        [_vm._v("View")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-sm btn-outline-secondary",
+                          attrs: { type: "button" },
+                        },
+                        [_vm._v("Edit")]
+                      ),
+                    ]),
+                    _vm._v(" "),
+                    _c("small", { staticClass: "text-muted" }, [
+                      _vm._v("12 mins"),
+                    ]),
+                  ]
+                ),
+              ]),
+            ]),
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "col-md-4" }, [
+            _c("div", { staticClass: "card mb-4 box-shadow" }, [
+              _c("img", {
+                staticClass: "card-img-top",
+                attrs: { src: "img/thumbnail.png", alt: "Card image cap" },
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "card-body" }, [
+                _c("p", { staticClass: "card-text" }, [
+                  _vm._v(
+                    "This is a wider card with supporting text below as a natural lead-in to additional content.\n                            This content is a little bit longer."
+                  ),
+                ]),
+                _vm._v(" "),
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "d-flex justify-content-between align-items-center",
+                  },
+                  [
+                    _c("div", { staticClass: "btn-group" }, [
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-sm btn-outline-secondary",
+                          attrs: { type: "button" },
+                        },
+                        [_vm._v("View")]
+                      ),
+                      _vm._v(" "),
+                      _c(
+                        "button",
+                        {
+                          staticClass: "btn btn-sm btn-outline-secondary",
+                          attrs: { type: "button" },
+                        },
+                        [_vm._v("Edit")]
+                      ),
+                    ]),
+                    _vm._v(" "),
+                    _c("small", { staticClass: "text-muted" }, [
+                      _vm._v("12 mins"),
+                    ]),
+                  ]
+                ),
+              ]),
+            ]),
+          ]),
+        ]),
+      ]),
+    ])
+  },
+]
+render._withStripped = true
+
 
 
 /***/ }),
@@ -37833,10 +38554,10 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/HomeCardComponent.vue?vue&type=template&id=0f53d15a&":
-/*!*****************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/HomeCardComponent.vue?vue&type=template&id=0f53d15a& ***!
-  \*****************************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/RecommendCardsComponent.vue?vue&type=template&id=589305ca&":
+/*!***********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib/index.js??vue-loader-options!./resources/js/components/RecommendCardsComponent.vue?vue&type=template&id=589305ca& ***!
+  \***********************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -37859,138 +38580,30 @@ var staticRenderFns = [
     return _c("div", { staticClass: "container" }, [
       _c(
         "div",
-        { staticClass: "jumbotron p-3 p-md-5 text-white rounded bg-dark" },
+        {
+          staticClass: "jumbotron p-3 p-md-5 rounded",
+          staticStyle: {
+            "background-image": "url('./assets/image/banner.jpg')",
+            "background-repeat": "no-repeat",
+            "background-size": "cover",
+          },
+        },
         [
           _c("div", { staticClass: "col-md-6 px-0" }, [
             _c("h1", { staticClass: "display-4 font-italic" }, [
-              _vm._v("Title of a longer featured blog post"),
+              _vm._v("Everyone Like's Your Items👍"),
             ]),
             _vm._v(" "),
             _c("p", { staticClass: "lead my-3" }, [
-              _vm._v(
-                "Multiple lines of text that form the lede, informing new readers quickly and efficiently about what's most interesting in this post's contents."
-              ),
+              _vm._v("皆さんのお気に入りがここに！"),
             ]),
             _vm._v(" "),
-            _c("p", { staticClass: "lead mb-0" }, [
-              _c(
-                "a",
-                {
-                  staticClass: "text-white font-weight-bold",
-                  attrs: { href: "#" },
-                },
-                [_vm._v("Continue reading...")]
-              ),
+            _c("p", { staticClass: "lead my-3" }, [
+              _vm._v("大好きなアイテムを皆に自慢しましょう"),
             ]),
           ]),
         ]
       ),
-      _vm._v(" "),
-      _c("div", { staticClass: "row mb-2" }, [
-        _c("div", { staticClass: "col-md-6" }, [
-          _c(
-            "div",
-            { staticClass: "card flex-md-row mb-4 box-shadow h-md-250" },
-            [
-              _c(
-                "div",
-                {
-                  staticClass: "card-body d-flex flex-column align-items-start",
-                },
-                [
-                  _c(
-                    "strong",
-                    { staticClass: "d-inline-block mb-2 text-primary" },
-                    [_vm._v("World")]
-                  ),
-                  _vm._v(" "),
-                  _c("h3", { staticClass: "mb-0" }, [
-                    _c(
-                      "a",
-                      { staticClass: "text-dark", attrs: { href: "#" } },
-                      [_vm._v("Featured post")]
-                    ),
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "mb-1 text-muted" }, [
-                    _vm._v("Nov 12"),
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "card-text mb-auto" }, [
-                    _vm._v(
-                      "This is a wider card with supporting text below as a natural lead-in to additional content."
-                    ),
-                  ]),
-                  _vm._v(" "),
-                  _c("a", { attrs: { href: "#" } }, [
-                    _vm._v("Continue reading"),
-                  ]),
-                ]
-              ),
-              _vm._v(" "),
-              _c("img", {
-                staticClass: "card-img-right flex-auto d-none d-md-block",
-                attrs: {
-                  "data-src": "holder.js/200x250?theme=thumb",
-                  alt: "Card image cap",
-                },
-              }),
-            ]
-          ),
-        ]),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-md-6" }, [
-          _c(
-            "div",
-            { staticClass: "card flex-md-row mb-4 box-shadow h-md-250" },
-            [
-              _c(
-                "div",
-                {
-                  staticClass: "card-body d-flex flex-column align-items-start",
-                },
-                [
-                  _c(
-                    "strong",
-                    { staticClass: "d-inline-block mb-2 text-success" },
-                    [_vm._v("Design")]
-                  ),
-                  _vm._v(" "),
-                  _c("h3", { staticClass: "mb-0" }, [
-                    _c(
-                      "a",
-                      { staticClass: "text-dark", attrs: { href: "#" } },
-                      [_vm._v("Post title")]
-                    ),
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "mb-1 text-muted" }, [
-                    _vm._v("Nov 11"),
-                  ]),
-                  _vm._v(" "),
-                  _c("p", { staticClass: "card-text mb-auto" }, [
-                    _vm._v(
-                      "This is a wider card with supporting text below as a natural lead-in to additional content."
-                    ),
-                  ]),
-                  _vm._v(" "),
-                  _c("a", { attrs: { href: "#" } }, [
-                    _vm._v("Continue reading"),
-                  ]),
-                ]
-              ),
-              _vm._v(" "),
-              _c("img", {
-                staticClass: "card-img-right flex-auto d-none d-md-block",
-                attrs: {
-                  "data-src": "holder.js/200x250?theme=thumb",
-                  alt: "Card image cap",
-                },
-              }),
-            ]
-          ),
-        ]),
-      ]),
     ])
   },
 ]
