@@ -1,6 +1,12 @@
+// common
 import HeaderComponent from "./components/HeaderComponent";
 import RecommendCardsComponent from "./components/RecommendCardsComponent";
 import CardsComponent from "./components/CardsComponent";
+
+// detail
+import TitleBarComponent from "./components/detail/TitleBarComponent";
+import ContentsComponent from "./components/detail/ContentsComponent";
+import CommentsComponent from "./components/detail/CommentsComponent";
 
 /**
  * First we will load all of this project's JavaScript dependencies which
@@ -23,6 +29,10 @@ window.Vue = require('vue').default;
 Vue.component('header_component', HeaderComponent);
 Vue.component('recommend_cards_component', RecommendCardsComponent);
 Vue.component('cards_component', CardsComponent);
+
+Vue.component('title_bar_component', TitleBarComponent);
+Vue.component('contents_component', ContentsComponent);
+Vue.component('comments_component', CommentsComponent);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
